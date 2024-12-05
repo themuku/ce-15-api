@@ -7,6 +7,8 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, "public")));
 
+app.get("/", (req, res) => res.send("Salam from CE-15"));
+
 app.get("/oyunlar", (req, res) => {
   const file = fs.readFileSync(path.join(__dirname, "db.json"));
   res.status(200).json(JSON.parse(file));
@@ -15,3 +17,5 @@ app.get("/oyunlar", (req, res) => {
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
+
+module.exports = app;
