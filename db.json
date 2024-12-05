@@ -1,0 +1,37 @@
+{
+  "oyunlar": [
+    { "adı": "gta 5", "img": "photo1.png" },
+    {
+      "adı": "red dead ",
+      "img": "photo2.png"
+    },
+    {
+      "adı": "susha",
+      "img": "photo3.png"
+    },
+    {
+      "adı": "lankaran",
+      "img": "photo4.png"
+    },
+    {
+      "adı": "assett corsa",
+      "img": "photo5.png"
+    },
+    {
+      "adı": "minecraft",
+      "img": "photo6.png"
+    },
+    {
+      "adı": "assaasssıns cread baku",
+      "img": "photo7.png"
+    },
+    {
+      "adı": "baku 2019",
+      "img": "photo8.png"
+    },
+    {
+      "adı": "pubg",
+      "img": "photo9.png"
+    }
+  ]
+}
